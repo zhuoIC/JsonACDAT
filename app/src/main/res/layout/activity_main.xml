@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.jsonacdat.MainActivity">
+
+    <Button
+        android:id="@+id/btnPrimitiva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primitiva"
+        android:layout_marginTop="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnContactos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPrimitiva"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Lista de contactos" />
+
+    <Button
+        android:id="@+id/btnContactosGSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnPrimitiva"
+        android:layout_below="@+id/btnContactos"
+        android:layout_marginTop="25dp"
+        android:text="Lista de contactos (GSON)" />
+
+    <Button
+        android:id="@+id/btnCreacionJSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Creación de JSON"
+        android:layout_below="@+id/btnContactosGSON"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnRepositorios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCreacionJSON"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Retrofit" />
+
+</RelativeLayout>
+
