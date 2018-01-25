@@ -20,8 +20,12 @@ public class Analisis {
         cadena.append("Sorteos de la Primitiva:" + "\n");
         for (int i = 0; i < jsonContenido.length(); i++) {
             item = jsonContenido.getJSONObject(i);
-
-
+            cadena.append(tipo + ":" + item.getString("fecha") + "\n");
+            cadena.append(item.getInt("numero1") + ","+item.getInt("numero2") + ","+item.getInt("numero3") + ","+item.getInt("numero4") + ","+item.getInt("numero5") + ","+"\n");
+            cadena.append("Reintegro: " + item.getInt("reintegro") + "\n");
+            cadena.append("Complementario: " + item.getInt("complementario") + "\n");
+            cadena.append("Sorteo: " + item.getInt("sorteo") + "\n");
+            cadena.append("\n");
         }
 
         return cadena.toString();

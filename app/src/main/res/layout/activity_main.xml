@@ -28,8 +28,8 @@
         android:id="@+id/btnContactosGSON"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/btnPrimitiva"
         android:layout_below="@+id/btnContactos"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:text="Lista de contactos (GSON)" />
 

@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         Intent intent;
-        if (view == btnContactos){
+        if (view == btnPrimitiva){
             intent = new Intent(this, Primitiva.class);
             startActivity(intent);
         }
-        if (view == btnPrimitiva){
+        if (view == btnContactos){
             intent = new Intent(this, ListaContactos.class);
             startActivity(intent);
         }

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">JsonACDAT</string>
+    <string name="btnPrimitiva">Descargar JSON</string>
 </resources>
