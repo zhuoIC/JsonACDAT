@@ -1,4 +1,4 @@
-package com.example.usuario.jsonacdat.ui.ContactosGSON;
+package com.example.usuario.jsonacdat.ui.contactosGSON;
 
 /**
  * Created by usuario on 30/01/18.

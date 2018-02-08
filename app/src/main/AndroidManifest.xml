@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.usuario.jsonacdat">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +22,8 @@
         <activity android:name=".ui.Repositorios" />
         <activity android:name=".ui.ListaContactos" />
         <activity android:name=".ui.ListaContactosGSON" />
-        <activity android:name=".ui.CreacionJSON"></activity>
+        <activity android:name=".ui.CreacionJSON" />
+        <activity android:name=".ui.retrofit.RetrofitActivity"></activity>
     </application>
 
 </manifest>

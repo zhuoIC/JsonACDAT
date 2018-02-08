@@ -1,4 +1,4 @@
-package com.example.usuario.jsonacdat.ui.ContactosGSON;
+package com.example.usuario.jsonacdat.ui.contactosGSON;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

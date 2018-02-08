@@ -12,8 +12,8 @@ import android.widget.Toast;
 
 import com.example.usuario.jsonacdat.R;
 import com.example.usuario.jsonacdat.network.RestClient;
-import com.example.usuario.jsonacdat.ui.ContactosGSON.Contact;
-import com.example.usuario.jsonacdat.ui.ContactosGSON.Person;
+import com.example.usuario.jsonacdat.ui.contactosGSON.Contact;
+import com.example.usuario.jsonacdat.ui.contactosGSON.Person;
 import com.google.gson.Gson;
 import com.loopj.android.http.JsonHttpResponseHandler;
 

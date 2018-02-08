@@ -10,7 +10,8 @@ import com.example.usuario.jsonacdat.ui.CreacionJSON;
 import com.example.usuario.jsonacdat.ui.ListaContactos;
 import com.example.usuario.jsonacdat.ui.ListaContactosGSON;
 import com.example.usuario.jsonacdat.ui.Primitiva;
-import com.example.usuario.jsonacdat.ui.Repositorios;
+import com.example.usuario.jsonacdat.ui.retrofit.RetrofitActivity;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -55,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }
         if (view == btnRepositorios){
-            intent = new Intent(this, Repositorios.class);
+            intent = new Intent(this, RetrofitActivity.class);
             startActivity(intent);
         }
     }
